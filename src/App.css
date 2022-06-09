@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: paleturquoise;
+  background-image: linear-gradient(to right top, #528de6, #528de6, #528de6, #528de6, #528de6);
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.wrongRoute {
+  text-align: center;
+  color: white;
+  margin-top: 250px;
+}
+
+.heading {
+  color: whitesmoke;
+}
+
+input {
+  font-size: 20px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding-left: 15px;
+}
+
+.logout {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+[type="submit"],
+.logout {
+  margin: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #FFC300;
+  color: white;
+  border: none;
+  font-size: 19px;
+  padding: 10px 20px;
+}
+
+.curptr {
+  cursor: pointer;
+}
+
+.list {
+  margin: 15px;
+  border: 1px solid black;
+  width: fit-content;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.listHeading {
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.eachList {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.deleteAll {
+  margin: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #ff5100;
+  color: white;
+  border: none;
+  font-size: 19px;
+  padding: 5px 10px;
+}
+
+.fs20 {
+  font-size: 20px;
+}
+
+.text {
+  inline-size: 160px;
+  word-wrap: break-word;
+}
+
+@media screen and (max-width:600px) {
+  .text {
+    inline-size: 80px;
+  }
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.whiteClr {
+  color: white;
+}

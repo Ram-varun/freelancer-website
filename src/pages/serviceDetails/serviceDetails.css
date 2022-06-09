@@ -1,0 +1,8 @@
+.serviceDetailPage {
+    background-color: white;
+    height: 100%;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+}

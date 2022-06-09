@@ -1,0 +1,9 @@
+.service_card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border: 1px solid white;
+    padding: 4px;
+    margin: 10px !important;
+    max-width: 350px;
+}
